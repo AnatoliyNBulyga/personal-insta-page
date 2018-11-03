@@ -9,10 +9,16 @@ body {
 	color: #000000;
 	background-color: #424242;
 
-	background: #F8D353;
+	background: #753FB3;
+	background: -webkit-linear-gradient(bottom right, #753FB3, #6C75B9);
+	background: -moz-linear-gradient(bottom right, #753FB3, #6C75B9);
+	background: linear-gradient(bottom right, #753FB3, #6C75B9);
+
+
+	/* background: #F8D353;
 	background: -webkit-linear-gradient(top left, #F8D353, #FF5C5A);
 	background: -moz-linear-gradient(top left, #F8D353, #FF5C5A);
-	background: linear-gradient(top left, #F8D353, #FF5C5A);
+	background: linear-gradient(top left, #F8D353, #FF5C5A); */
 
 /*	background: #B0D09C;
 	background: -webkit-linear-gradient(top left, #B0D09C, #4B8244);
@@ -48,13 +54,14 @@ img {
 	font-size: 58px;
 	font-weight: 400;
 	margin: 0;
-	line-height: 1.5;
-	font-family: 'Oranienbaum', cursive;
+	line-height: 1.15;
+	font-family: 'Cuprum', sans-serif;
+
 	color: #fff;
 }
 
 .title {
-	font-size: 36px;
+	font-size: 34px;
 	font-weight: 400;
 	margin: 0;
 	line-height: 1.5;
