@@ -4,20 +4,16 @@ $(document).ready(function(){
 
    var playBtn = $("#audio-play"),
       pauseBtn = $("#audio-pause"),
-      audioControl = $("[data-type='audio-control']");
+      audioControl = $("[data-type='audio-control']");   
 
    setTimeout(initAudioPlayer, 1000);
 
-
-      
+ 
    function initAudioPlayer() {
       
-      playBtn.parent().show();
       audio.loop = true;
-      audio.play();
-      playBtn.parent().hide();
-      pauseBtn.parent().show();
-
+      playBtn.parent().show();
+      pauseBtn.parent().hide();   
 
       audioControl.click(function(){
          
@@ -35,6 +31,7 @@ $(document).ready(function(){
          }
 
       });
+
    }
 
    // audio.play();
