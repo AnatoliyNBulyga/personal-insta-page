@@ -4,7 +4,7 @@ $(document).ready(function(){
 
    function showPhotos() {
 
-      var slides = $(".photo img");
+      var slides = $("#instafeed a");
 
       // Запускаем цикл для скрытия фото
       for ( var i = 0; i < slides.length; i++) {
@@ -19,11 +19,11 @@ $(document).ready(function(){
          slideIndex = 1;
       }
 
-      $(slides[slideIndex - 1]).fadeToggle(4000);
+      $(slides[slideIndex - 1]).fadeToggle(300);
 
 
 
-      setTimeout(showPhotos, 4000);
+      setTimeout(showPhotos, 300);
 
    }
 

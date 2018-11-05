@@ -6,13 +6,13 @@
 	margin-bottom: 70px;
 }
 
-.photo img {
+/*.photo img {
 	display: none;
-}
+}*/
 
 .instafeed {
-	width: 640px;
-	height: 620px;
+	max-width: 480px;
+	height: 480px;
 	overflow: hidden;
 	transition: opacity 1s ease-in, box-shadow 3s ease-in;
 	opacity: 0;
